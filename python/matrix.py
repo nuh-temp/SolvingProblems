@@ -13,7 +13,6 @@ class Matrix:
     def __init__(self, list):
         self.matrix = list
         self.seq = []
-        pass
 
     def print_out(self):
         print "[", ', '.join(map(str, self.seq)), "]"
